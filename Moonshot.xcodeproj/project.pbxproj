@@ -11,6 +11,11 @@
 		DBFDD31929CCF025006FA98F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDD31829CCF025006FA98F /* ContentView.swift */; };
 		DBFDD31B29CCF027006FA98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFDD31A29CCF027006FA98F /* Assets.xcassets */; };
 		DBFDD31E29CCF027006FA98F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFDD31D29CCF027006FA98F /* Preview Assets.xcassets */; };
+		DBFDD32629CD013C006FA98F /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFDD32429CD013C006FA98F /* missions.json */; };
+		DBFDD32729CD013C006FA98F /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFDD32529CD013C006FA98F /* astronauts.json */; };
+		DBFDD32929CD01FA006FA98F /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDD32829CD01FA006FA98F /* Astronaut.swift */; };
+		DBFDD32B29CD070D006FA98F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDD32A29CD070D006FA98F /* Bundle-Decodable.swift */; };
+		DBFDD32D29CD09A5006FA98F /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDD32C29CD09A5006FA98F /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		DBFDD31829CCF025006FA98F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBFDD31A29CCF027006FA98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBFDD31D29CCF027006FA98F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBFDD32429CD013C006FA98F /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		DBFDD32529CD013C006FA98F /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		DBFDD32829CD01FA006FA98F /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		DBFDD32A29CD070D006FA98F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		DBFDD32C29CD09A5006FA98F /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				DBFDD31629CCF025006FA98F /* MoonshotApp.swift */,
 				DBFDD31829CCF025006FA98F /* ContentView.swift */,
+				DBFDD32C29CD09A5006FA98F /* Mission.swift */,
+				DBFDD32829CD01FA006FA98F /* Astronaut.swift */,
+				DBFDD32A29CD070D006FA98F /* Bundle-Decodable.swift */,
+				DBFDD32529CD013C006FA98F /* astronauts.json */,
+				DBFDD32429CD013C006FA98F /* missions.json */,
 				DBFDD31A29CCF027006FA98F /* Assets.xcassets */,
 				DBFDD31C29CCF027006FA98F /* Preview Content */,
 			);
@@ -126,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFDD31E29CCF027006FA98F /* Preview Assets.xcassets in Resources */,
+				DBFDD32629CD013C006FA98F /* missions.json in Resources */,
 				DBFDD31B29CCF027006FA98F /* Assets.xcassets in Resources */,
+				DBFDD32729CD013C006FA98F /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBFDD32929CD01FA006FA98F /* Astronaut.swift in Sources */,
 				DBFDD31929CCF025006FA98F /* ContentView.swift in Sources */,
 				DBFDD31729CCF025006FA98F /* MoonshotApp.swift in Sources */,
+				DBFDD32D29CD09A5006FA98F /* Mission.swift in Sources */,
+				DBFDD32B29CD070D006FA98F /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
